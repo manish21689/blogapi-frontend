@@ -1,0 +1,72 @@
+.register{
+width:100%;
+height:calc(100vh - 50px);
+display:flex;
+justify-content: center;
+align-items: center;
+background: url(/public/2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.regform{
+width:40%;
+height:84vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+border:1px solid black;
+background-color: rgba(0,0,0,0.5);
+box-shadow: inset -5px -5px;
+border-radius:10px;
+}
+.box{
+width:70%;
+margin:20px auto;
+padding:20px;
+border-radius:10px;
+font-size:20px;   
+background-color: rgba(0,0,0,0.5);
+color:white;
+
+}
+.filewrapper{
+display:flex;    
+width:70%;
+height:12vh;
+padding:20px;
+border-radius:10px;
+font-size:20px;   
+border:1px solid black;
+justify-content: space-between;
+box-shadow: inset -5px -5px;
+}
+.uploadimg{
+font-size:20px;
+margin:10px;
+width:40px;
+height:40px;
+border:1px solid white;    
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+margin-right:5px;
+}
+.regimg {
+width:60px;
+height:70px;
+border-radius:50px;
+object-fit: cover;
+}
+button{
+margin-top:10px;
+width:30%;
+height:10vh;
+border-radius:10px;
+background:transparent;
+box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+color:white;
+font: size 25px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
